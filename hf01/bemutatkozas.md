@@ -12,3 +12,11 @@ A nevem Péjó Kristóf - I4N8F5
 
 Git hasznalatanak megtanulasa mindenkepp, ezenkivul legyen meglepetes
 
+
+
+\#Milyen gepen dolgozok
+
+
+
+Windows 11
+
