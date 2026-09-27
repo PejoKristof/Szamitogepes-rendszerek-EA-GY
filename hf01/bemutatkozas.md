@@ -20,11 +20,3 @@ Git hasznalatanak megtanulasa mindenkepp, ezenkivul legyen meglepetes
 
 Windows 11
 
-
-
-\#Ideiglenes resz
-
-
-
-Hehehe -\_-
-
