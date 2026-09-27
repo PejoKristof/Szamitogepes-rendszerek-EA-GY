@@ -20,3 +20,7 @@ Git hasznalatanak megtanulasa mindenkepp, ezenkivul legyen meglepetes
 
 Windows 11
 
+
+
+\-Valami a stashhez :c
+
