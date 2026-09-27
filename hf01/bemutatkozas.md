@@ -10,5 +10,5 @@ A nevem Péjó Kristóf - I4N8F5
 
 
 
-Git hasznalatanak megtanulasa mindenkepp, ezenkivul legyen meglepetes
+Git hasznalatanak megtanulasa mindenkepp, ezenkivul legyen meglepetes - valami mas valtoztatas
 
