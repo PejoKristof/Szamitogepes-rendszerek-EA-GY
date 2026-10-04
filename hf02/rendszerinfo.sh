@@ -4,7 +4,7 @@
 # ./rendszerinfo.sh [kimeneti_fajl]
 # sikeres: 0 |  sikertelen: 1
 
-output_file=${1:-}"
+output_file="${1:-}"
 
 gen_info() {
 	printf '%-25s %s\n' "Hosztnév:" "$(hostname)"
@@ -13,7 +13,7 @@ gen_info() {
 	printf '%-25s %s\n' "Bejelentkezett felhasználó:" "$(whoami)"
 	printf '%-25s %s\n' "Home könyvtár mérete:" "$(du -sh "$HOME" 2>/dev/null | cut -f1)"
 	printf '%-25s %s\n' "Szabad hely a / -on:" "$(df -h / | awk 'NR==2 {print $4}')"
-	printf '%-25s %s\n' "Futó folyamatok száma:" "Ł(ps -e | wc -l)"
+	printf '%-25s %s\n' "Futó folyamatok száma:" "$(ps -e | wc -l)"
 }
 
 if [ -n "$output_file" ]; then
