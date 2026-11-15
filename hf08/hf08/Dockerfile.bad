@@ -1,0 +1,17 @@
+FROM debian:bookworm-slim
+
+WORKDIR /app
+COPY . .
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends bash gawk passwd \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN groupadd --system logtool \
+    && useradd --system --gid logtool --home-dir /nonexistent \
+       --shell /usr/sbin/nologin logtool \
+    && chmod 755 /app/logtool.sh
+
+USER logtool
+
+ENTRYPOINT ["/app/logtool.sh"]
